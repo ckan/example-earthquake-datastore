@@ -55,11 +55,13 @@ def setup(config):
     # Create a dataset first
 
     data = {
-        'name': 'ngds-earthquakes-data11',
+        'name': 'ngds-earthquakes-data',
         'title': 'NGDS Earthquakes Data',
         'notes': '''
-            Earthquake data from http,
-            updated regularly
+            Earthquake data from http://earthquake.usgs.gov,
+            updated regularly and pushed to a DataStore table.
+
+The script that handles the update can be accessed at https://github.com/ckan/example-earthquake-datastore.
         ''',
     }
 
