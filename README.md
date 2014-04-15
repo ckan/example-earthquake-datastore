@@ -62,4 +62,4 @@ As we defined a primary key when creating the DataStore table we can use the `up
 When accessed via the CKAN frontend, the data can be explored in the grid and map previews powered by Recline, and of course it can be accessed programmatically from other applications using the [datastore_search](http://docs.ckan.org/en/latest/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) API action.
 
 
-![grid](http://i.imgur.com/qROi8dm.jpg)
+![grid](http://i.imgur.com/qR0i8dm.jpg)
