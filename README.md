@@ -11,6 +11,8 @@ This example demonstrates how to use DataStore tables to push data directly
 to them rather than automatically import tabular files via the DataPusher.
 It can be easily be adapted to different data sources.
 
+![map](http://i.imgur.com/RDYNMJ3.jpg)
+
 ## Usage
 
 * Create a virtualenv and install [requests](http://docs.python-requests.org/):
@@ -59,3 +61,5 @@ As we defined a primary key when creating the DataStore table we can use the `up
 
 When accessed via the CKAN frontend, the data can be explored in the grid and map previews powered by Recline, and of course it can be accessed programmatically from other applications using the [datastore_search](http://docs.ckan.org/en/latest/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) API action.
 
+
+![grid](http://i.imgur.com/qROi8dm.jpg)
