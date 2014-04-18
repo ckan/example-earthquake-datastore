@@ -11,6 +11,8 @@ This example demonstrates how to use DataStore tables to push data directly
 to them rather than automatically import tabular files via the DataPusher.
 It can be easily be adapted to different data sources.
 
+See it in action at http://demo.ckan.org/dataset/ngds-earthquakes-data
+
 ![map](http://i.imgur.com/RDYNMJ3.jpg)
 
 ## Usage
@@ -42,7 +44,7 @@ You probably want to set up this command to run hourly, eg with a cron job:
 
 Add a line like this:
 
-    0 0 * * * /path/to/your/pyenv/bin/python /path/to/your/pyenv/src/example-earthquake-datastore/datastore_update.py update
+    0 0 * * * /path/to/your/pyenv/bin/python /path/to/your/pyenv/src/example-earthquake-datastore/datastore_updater.py update
 
 ## How it works
 
